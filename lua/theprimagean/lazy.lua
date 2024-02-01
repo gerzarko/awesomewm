@@ -15,6 +15,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 
+
 vim.g.mapleader = ' '
 
 local plugins = {
@@ -125,17 +126,17 @@ local plugins = {
     -- opts will be merged with the parent spec
     opts = { use_diagnostic_signs = true },
   },
-{
-    "nvim-lualine/lualine.nvim",
-    event = "VeryLazy",
-    opts = function(_, opts)
-      table.insert(opts.sections.lualine_x, "😄")
-    end,
-  },
-  {
-    "nvim-telescope/telescope-file-browser.nvim",
-    dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
-},
+-- {
+--     "nvim-lualine/lualine.nvim",
+--     event = "VeryLazy",
+--     opts = function(_, opts)
+--       table.insert(opts.sections.lualine_x, "😄")
+--     end,
+--   },
+--   {
+--     "nvim-telescope/telescope-file-browser.nvim",
+--     dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+-- },
 
 {
   "folke/noice.nvim",
