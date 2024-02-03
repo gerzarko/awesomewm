@@ -40,13 +40,15 @@ local plugins = {
     build = ":TSUpdate",
   } ,
 
+
+
   "nvim-treesitter/playground",
   "theprimeagen/harpoon",
   "theprimeagen/refactoring.nvim",
   "mbbill/undotree",
   "tpope/vim-fugitive",
   "nvim-treesitter/nvim-treesitter-context",
-  "wuelnerdotexe/vim-astro";
+  "wuelnerdotexe/vim-astro",
 
   {
 	  'VonHeikemen/lsp-zero.nvim',
